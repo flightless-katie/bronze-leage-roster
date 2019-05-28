@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import ProfileCard from './ProfileCard'
 import './App.css';
 import roster from './roster'
+import moment from 'moment'
 
 function App() {
   const players = roster.slice().sort((a,b) =>
@@ -18,8 +19,8 @@ function App() {
         <ProfileCard
           name={p.name}
           rolesDisplay={p.roles.join(' > ')}
-          localTimeDisplay={"8:20 PM"}
-          battleTagsDisplay={"Flightless#11264"}
+          localTimeDisplay={moment().format('HH:MM a')}
+          battleTagsDisplay={p.battletags.join(', ')}
           heroes={p.heroes}
         />
       )}
