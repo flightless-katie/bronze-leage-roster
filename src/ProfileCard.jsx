@@ -5,7 +5,7 @@ export default class ProfileCard extends React.Component {
   render() {
     const localTime = this.props.timezone ? moment()
             .utcOffset(this.props.timezone)
-            .format('HH:MM a')
+            .format('HH:mm a')
       : 'Not known'
     return (
       <div style={{textAlign: 'left', verticalAlign: 'top',
