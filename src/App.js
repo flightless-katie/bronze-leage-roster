@@ -19,8 +19,10 @@ function App() {
         <ProfileCard
           name={p.name}
           rolesDisplay={p.roles.join(' > ')}
-          localTimeDisplay={moment().format('HH:MM a')}
-          battleTagsDisplay={p.battletags.join(', ')}
+          timezone={p.timezone}
+          battleTagsDisplay={p.battletags.map(b =>
+            <a target={"_blank"} href={"https://www.overbuff.com/players/pc/" + b.replace('#', '-')}>{b}</a>
+          )}
           heroes={p.heroes}
         />
       )}

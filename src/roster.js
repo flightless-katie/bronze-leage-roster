@@ -1,22 +1,22 @@
 export default [
   {
     name: "Flightless (Katie)",
-    battletags: [],
+    battletags: ["Flightless#11264"],
     heroes: ["Brigitte", "Baptiste", "Reaper", "Reinhardt", "Mei"],
     roles: ["Support", "DPS", "Tank"],
-    timezone: "EST"
+    timezone: "-0500"
   },
   {
     name: "Zeddie",
     battletags: [],
     heroes: ["Bastion", "Reaper", "Moira", "Dva", "Roadhog"],
     roles: ["DPS", "Support", "Tank"],
-    timezone: "EST"
+    timezone: "-0600"
   },
   {
     name: "Obsidian Doom (Doom)",
-    battletags: [],
-    heroes: ["Orisa", "Genji"],
+    battletags: ["ObsidianDoom#1815"],
+    heroes: ["Orisa", "Genji", "Moira", "Sombra", "Dva"],
     roles: ["Tank", "DPS", "Support"]
   },
   {
