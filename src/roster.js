@@ -1,6 +1,6 @@
 const timezones = {
-  eastern: "-0500",
-  central: "-0600"
+  eastern: "-0400",
+  central: "-0500"
 }
 
 export default [
@@ -41,7 +41,7 @@ export default [
   {
     name: "ShaolinSavvy",
     battletags: ["ShaolinSavvy#1708"],
-    heroes: ["Mercy", "Moira", "Brigitte", "Baptiste", "Lucio"],
+    heroes: ["Baptiste", "Moira", "Brigitte", "Lucio", "Zenyatta"],
     roles: ["Support", "DPS", "Tank"],
   },
   {
@@ -78,7 +78,7 @@ export default [
   {
     name: "Chewbacca For You",
     battletags: ["Chewbacca#12731"],
-    heroes: ["Pharah", "Widowmaker", "Mei", "Reaper", "Junkrat"],
+    heroes: ["Pharah", "Mei", "Reaper", "Roadhog", "Moira"],
     roles: ["DPS", "Tank", "Support"],
     timezone: timezones.eastern
   },
