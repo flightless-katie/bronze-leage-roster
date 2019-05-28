@@ -1,7 +1,8 @@
 const timezones = {
   eastern: "-0400",
   central: "-0500",
-  pacific: "-0600"
+  mountain: "-0600",
+  pacific: "-0700"
 }
 
 export default [
