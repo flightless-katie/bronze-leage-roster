@@ -81,7 +81,7 @@ export default [
     battletags: ["Chewbacca#12731"],
     heroes: ["Pharah", "Mei", "Reaper", "Roadhog", "Moira"],
     roles: ["DPS", "Tank", "Support"],
-    timezone: timezones.eastern
+    timezone: timezones.pacific
   },
   {
     name: "Fanatic",
