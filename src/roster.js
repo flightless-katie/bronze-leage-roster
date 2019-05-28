@@ -1,6 +1,7 @@
 const timezones = {
   eastern: "-0400",
-  central: "-0500"
+  central: "-0500",
+  pacific: "-0600"
 }
 
 export default [
@@ -76,7 +77,7 @@ export default [
     roles: [],
   },
   {
-    name: "Chewbacca For You",
+    name: "chewbacca4you",
     battletags: ["Chewbacca#12731"],
     heroes: ["Pharah", "Mei", "Reaper", "Roadhog", "Moira"],
     roles: ["DPS", "Tank", "Support"],
