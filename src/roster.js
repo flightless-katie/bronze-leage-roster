@@ -10,7 +10,8 @@ export default [
     name: "Parabatoi",
     battletags: ["Parabatoi#1308"],
     heroes: ["Reaper", "Junkrat", "Pharah", "Moira", "Soldier"],
-    roles: ["DPS", "Support", "Tank"]
+    roles: ["DPS", "Support", "Tank"],
+    timezone: timezones.eastern
   },
   {
     name: "Flightless (Katie)",
@@ -45,12 +46,14 @@ export default [
     battletags: ["Filandia#1196"],
     heroes: ["Mercy", "Ana", "Dva", "Brigitte", "Moira"],
     roles: ["Support", "Tank", "DPS"],
+    timezone: timezones.eastern
   },
   {
     name: "ShaolinSavvy",
     battletags: ["ShaolinSavvy#1708"],
     heroes: ["Baptiste", "Moira", "Brigitte", "Lucio", "Zenyatta"],
     roles: ["Support", "DPS", "Tank"],
+    timezone: timezones.central
   },
   {
     name: "Ebbie",
