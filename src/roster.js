@@ -7,6 +7,12 @@ const timezones = {
 
 export default [
   {
+    name: "Parabatoi",
+    battletags: ["Parabatoi#1308"],
+    heroes: ["Reaper", "Junkrat", "Pharah", "Moira", "Soldier"],
+    roles: ["DPS", "Support", "Tank"]
+  },
+  {
     name: "Flightless (Katie)",
     battletags: ["Flightless#11264"],
     heroes: ["Brigitte", "Baptiste", "Reaper", "Reinhardt", "Mei"],
