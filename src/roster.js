@@ -7,6 +7,13 @@ const timezones = {
 
 export default [
   {
+    name: "Jabuchi",
+    battletags: ["Jabuchi#11152"],
+    heroes: ["Zenyatta", "Soldier", "Mercy", "Pharah", "McCree"],
+    timezone: timezones.eastern,
+    roles: ["Support", "DPS", "Tank"]
+  },
+  {
     name: "Parabatoi",
     battletags: ["Parabatoi#1308"],
     heroes: ["Reaper", "Junkrat", "Pharah", "Moira", "Soldier"],
