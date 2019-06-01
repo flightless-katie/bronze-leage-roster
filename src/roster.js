@@ -7,6 +7,24 @@ const timezones = {
 
 export default [
   {
+    name: "Damon Varr",
+    battletags: ["Damon#12582"],
+    heroes: ["Lucio", "Zenyatta", "Moira", "Mercy"],
+    roles: ["Support", "DPS", "Tank"]
+  },
+  {
+    name: "Shevva",
+    battletags: ["Shevva#1720"],
+    heroes: ["Mercy", "Moira", "Brigitte", "Lucio", "Zenyatta"],
+    roles: ["Support", "Tank", "DPS"]
+  },
+  {
+    name: "Shoes McGee",
+    battletags: ["ShoesMcGee#11556"],
+    heroes: ["Dva", "Zarya", "Roadhog"],
+    roles: ["Tank", "DPS", "Support"]
+  },
+  {
     name: "Jabuchi",
     battletags: ["Jabuchi#11152"],
     heroes: ["Zenyatta", "Soldier", "Mercy", "Pharah", "McCree"],
