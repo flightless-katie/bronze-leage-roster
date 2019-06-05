@@ -15,13 +15,13 @@ export default [
   {
     name: "Shevva",
     battletags: ["Shevva#1720"],
-    heroes: ["Mercy", "Moira", "Brigitte", "Lucio", "Zenyatta"],
+    heroes: ["Mercy", "Moira", "Brigitte", "Orisa", "Reinhardt"],
     roles: ["Support", "Tank", "DPS"]
   },
   {
     name: "Shoes McGee",
     battletags: ["ShoesMcGee#11556"],
-    heroes: ["Dva", "Zarya", "Roadhog"],
+    heroes: ["Dva", "Zarya", "Roadhog", "Hammond"],
     roles: ["Tank", "DPS", "Support"]
   },
   {
